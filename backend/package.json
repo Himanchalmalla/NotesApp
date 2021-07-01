@@ -1,0 +1,27 @@
+{
+  "name": "note",
+  "version": "1.0.0",
+  "description": "app for practice",
+  "main": "server.js",
+  "type": "module",
+  "prettier": {
+    "singleQuote": true,
+    "htmlWhitespaceSensitivity": "css"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Himanchal Malla",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.13",
+    "nodemon": "^2.0.7",
+    "yup": "^0.32.9"
+  }
+}
